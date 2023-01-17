@@ -1,5 +1,7 @@
-
+import React from 'react';
 import './index.css';
+
+import { Article, Brand, Cta, Feature, Navbar } from './components';
 
 function App() {
   return (
