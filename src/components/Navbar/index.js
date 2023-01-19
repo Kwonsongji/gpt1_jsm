@@ -4,7 +4,7 @@ import './style.css';
 const Navbar = () => {
   return (
     <div className='Navbar'>
-      Article
+     Navbar
     </div>
   )
 }

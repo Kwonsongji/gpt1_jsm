@@ -3,7 +3,7 @@ import './style.css';
 
 const Features = () => {
   return (
-    <div className='features'>
+    <div className='Features'>
       Features
     </div>
   )
