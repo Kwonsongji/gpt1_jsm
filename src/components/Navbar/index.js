@@ -6,8 +6,12 @@ import './style.css';
 
 const Navbar = () => {
   return (
-    <div className='gpt1_navbar'>
-     <div className="gpt1__navbar-links"></div>
+    <div className='gpt1__navbar'>
+      <div className="gpt1__navbar-links">
+        <div className="gpt1__navbar-links_logo">
+        <img src={logo} alt="logo" />
+     </div>
+     </div>
     </div>
   )
 }
