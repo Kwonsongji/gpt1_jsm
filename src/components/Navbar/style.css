@@ -10,3 +10,14 @@
   display: flex;
   justify-content: center;
 }
+
+
+.gpt1__navbar-links_logo{
+  margin-right: 2rem;
+}
+
+.gpt1__navbar-links_logo img {
+  width: 62px;
+  height: 16px;
+}
+/* 42:48 */

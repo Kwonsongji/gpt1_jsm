@@ -5,6 +5,18 @@ flex-grow: 1; // chaque item ont la même largeur
 
 flex-grow: 2; // le 1er item est la largeur de la somme des deux autres items 
 
+
+
+flex: 1 means the following:
+
+flex-grow : 1;    ➜ The div will grow in same proportion as the window-size       
+flex-shrink : 1;  ➜ The div will shrink in same proportion as the window-size 
+flex-basis : 0;   ➜ The div does not have a starting value as such and will 
+                     take up screen as per the screen size available for
+                     e.g:- if 3 divs are in the wrapper then each div will take 33%.
+
+
+
 ::nth-of-type(1) vise le 1er élément
 ::nth-of-type(2n +1) vise partie impairs 
 
