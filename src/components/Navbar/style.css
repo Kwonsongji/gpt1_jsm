@@ -8,7 +8,8 @@
 .gpt1__navbar-links {
   flex: 1; 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 
@@ -17,7 +18,46 @@
 }
 
 .gpt1__navbar-links_logo img {
-  width: 62px;
-  height: 16px;
+  width: 62.56px;
+  height: 16.02px;
 }
+.gpt1__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+
+}
+.gpt1__navbar-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gpt1__navbar-links_container p,
+.gpt1__navbar-sign p,
+.gpt1__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 25px; /* espacement entre les lignes */
+  text-transform: capitalize; /* met la 1ère lettre de chaque mot en maj */
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.gpt1__navbar-sign button, 
+.gpt1__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #FF4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  left: 1153px;
+  font-size: 18px;
+  line-height: 25px;
+  top: 55px; 
+  border-radius: 5px;
+}
+
+
+
 /* 42:48 */

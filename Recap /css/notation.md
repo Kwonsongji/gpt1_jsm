@@ -32,3 +32,7 @@ backdrop-filter: blur(4px); effet de flou derrière l'élément
  visibility : visible/hidden, rendre un élement caché ou visible
 
 scroll-behavior: smooth; défilement plus doux
+
+line-height: 25px; /* espacement entre les lignes */
+
+text-transform: capitalize; /* met la 1ère lettre de chaque mot en maj */
