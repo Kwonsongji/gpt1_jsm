@@ -54,8 +54,9 @@
   left: 1153px;
   font-size: 18px;
   line-height: 25px;
-  top: 55px; 
   border-radius: 5px;
+  border :0; /* pas de bordure */
+  outline: 0;
 }
 
 
