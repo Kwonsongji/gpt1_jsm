@@ -57,6 +57,8 @@
   border-radius: 5px;
   border :0; /* pas de bordure */
   outline: 0;
+  cursor: pointer;
+
 }
 
 

@@ -24,6 +24,7 @@ const Navbar = () => {
         <p>Sign in</p>
         <button type="button">Sign up </button>
       </div>
+      <div className='gpt1__navbar-menu' ></div>
     </div>
   )
 }
