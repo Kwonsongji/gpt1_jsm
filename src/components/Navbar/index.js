@@ -1,11 +1,12 @@
-import React from 'react';
-import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
+import React, { useState } from 'react';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import './style.css';
 
 // BEM -> Block Element Modifier
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className='gpt1__navbar'>
       <div className="gpt1__navbar-links">
@@ -24,7 +25,17 @@ const Navbar = () => {
         <p>Sign in</p>
         <button type="button">Sign up </button>
       </div>
-      <div className='gpt1__navbar-menu' ></div>
+      <div className='gpt1__navbar-menu' >
+        { toggleMenu
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+        }
+        {toggleMenu && (
+          <div className="gpt3__navbar-menu_container scale-up-center">
+
+          </div>
+        )}
+      </div>
     </div>
   )
 }
