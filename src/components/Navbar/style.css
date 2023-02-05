@@ -126,4 +126,7 @@
   .gpt1__navbar-menu_container{
     top: 20px;
   }
+  .gpt1__navbar-menu_container-links-sign {
+    display: block;
+  }
 }

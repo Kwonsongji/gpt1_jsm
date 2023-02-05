@@ -36,8 +36,12 @@ a {
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
-  -webkit-background-clop:text ;
+  -webkit-background-clop:text ; /* ça fonctione sur tout les browsers, la zone d'arrière plan s'étend */
   -webkit-text-fill-color: transparent;
+
+
+  
+
 }
 .section__padding {
   padding: 4rem 6rem;

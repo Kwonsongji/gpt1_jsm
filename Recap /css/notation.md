@@ -5,8 +5,6 @@ flex-grow: 1; // chaque item ont la même largeur
 
 flex-grow: 2; // le 1er item est la largeur de la somme des deux autres items 
 
-
-
 flex: 1 means the following:
 
 flex-grow : 1;    ➜ The div will grow in same proportion as the window-size       
@@ -36,3 +34,7 @@ scroll-behavior: smooth; défilement plus doux
 line-height: 25px; /* espacement entre les lignes */
 
 text-transform: capitalize; /* met la 1ère lettre de chaque mot en maj */
+
+display: flex; /* par défaut ce sera en ligne */
+
+outline : bordure interne par ex d'un input 
