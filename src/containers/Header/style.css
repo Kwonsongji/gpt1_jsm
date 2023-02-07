@@ -8,8 +8,8 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-   margin-left: 6rem;  /* right 5rem*/
-  margin-right: 5rem;
+  margin-left: 6rem;  /* right 5rem*/
+  margin-right: 6rem;
 }
 
 .gpt1__header-content h1 {
@@ -109,5 +109,32 @@
   }
   .gpt1__header-content {
     margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .gpt1__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+   .gpt1__header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .gpt1__header-content {
+  margin-left: 6rem; 
+  margin-right: 6rem;
+  }
+
+  .gpt1__header-content__people {
+    flex-direction: column;
+  }
+  .gpt1__header-content__people p {
+    margin: 0; 
+  }
+  .gpt1__header-content__input input,
+  .gpt1__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
