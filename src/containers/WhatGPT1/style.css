@@ -25,7 +25,40 @@
   display: flex; 
 }
 
-.gpt1__whatgpt1-feature .gpt1__whatgpt1-features-container {
+.gpt1__whatgpt1-feature .gpt1__whatgpt1-features-container__feature {
+  margin: 0;
+}
+
+.gpt1__whatgpt1-feature .gpt1__whatgpt1-features-container__feature-text {
+  max-width: 700px;
 
 }
 
+
+.gpt1__whatgpt1-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4rem 0 2rem;
+}
+
+.gpt1__whatgpt1-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  max-width: 510px;
+  font-family: var(--font-family);
+}
+
+
+.gpt1__whatgpt1-heading p {
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #FF8A71;
+
+
+}
