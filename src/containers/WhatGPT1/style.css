@@ -52,13 +52,25 @@
 
 
 .gpt1__whatgpt1-heading p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor:pointer;
+}
 
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 30px;
-color: #FF8A71;
+.gpt1__whatgpt1-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 2rem;
+}
 
-
+@media screen and( max-width: 350px){
+  .gpt1__whatgpt1-container .gpt1__whatgpt1-feature {
+    margin : 1rem 0;
+    min-width: 100%;
+  }
 }
