@@ -38,3 +38,5 @@ text-transform: capitalize; /* met la 1ère lettre de chaque mot en maj */
 display: flex; /* par défaut ce sera en ligne */
 
 outline : bordure interne par ex d'un input 
+
+ <div /> {/* avoir de l'espace */}
