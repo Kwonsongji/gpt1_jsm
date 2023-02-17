@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 4rem 0 2rem;
+  margin: 4rem 1rem 2rem;
 }
 
 .gpt1__whatgpt1-heading h1 {

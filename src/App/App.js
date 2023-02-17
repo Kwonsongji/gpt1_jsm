@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
 
-import { Article, Brand, Cta, Feature, Navbar } from '../components'; 
-import { Blog, Footer,Header, Possibility, WhatGPT1 } from '../containers';
+import { Article, Brand, Cta, Navbar } from '../components'; 
+import { Blog, Footer,Header, Possibility,Features, WhatGPT1 } from '../containers';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT1 />
-      <Feature />
+      <Features/>
       <Possibility />
       <Cta />
       <Blog />
