@@ -5,7 +5,7 @@ import './style.css';
 
 const WhatGPT1 = () => {
   return (
-    <div className="gpt1__whatgpt1 section-margin " id="wgpt1">
+    <div className="gpt1__whatgpt1 section-margin " id="wgpt3">
       <div className="gpt1__whatgpt1-feature">
         <Feature
           title="What is GPT-3"

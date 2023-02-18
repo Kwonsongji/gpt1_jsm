@@ -1,5 +1,7 @@
 hero : section super mise en avant avec un peu de travail graphique
 
+margin: 1rem 0; /* espace en haut et bad et middle */
+
 flex-grow: 1; // chaque item ont la même largeur 
 
 
@@ -40,3 +42,5 @@ display: flex; /* par défaut ce sera en ligne */
 outline : bordure interne par ex d'un input 
 
  <div /> {/* avoir de l'espace */}
+
+ :lastchild La pseudo-classe permet de cibler un élément qui est le dernier enfant de son parent.

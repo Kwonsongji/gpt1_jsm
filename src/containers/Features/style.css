@@ -45,4 +45,22 @@
   .gpt1__features-heading {
     margin: 0 0 2rem 0;
   }
+  .gpt1__features-heading h1 {
+    width: 528px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .gpt1__features {
+    flex-direction: column;
+  }
+  .gpt1__features-heading {
+    margin: 0 0 2rem 0;
+  }
+  .gpt1__features-heading h1 {
+    width: 328px;
+    font-size: 28px;
+    line-height: 38px;
+  }
 }
