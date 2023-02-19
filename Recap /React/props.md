@@ -1,0 +1,1 @@
+les props contiennent les données, grâce à ça on peut les faire circuler d'un composant à un autre 
