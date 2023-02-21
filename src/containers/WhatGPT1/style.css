@@ -61,7 +61,6 @@
 
 .gpt1__whatgpt1-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 2rem;
 }

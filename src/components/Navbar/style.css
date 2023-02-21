@@ -5,6 +5,7 @@
   padding: 2rem 6rem;
 }
 
+
 .gpt1__navbar-links {
   flex: 1; 
   display: flex;
@@ -42,6 +43,11 @@
   text-transform: capitalize; /* met la 1ère lettre de chaque mot en maj */
   margin: 0 1rem;
   cursor: pointer;
+}
+
+.gpt1__navbar-links_container a:hover {
+  background-color:white ; 
+  color: black;
 }
 
 .gpt1__navbar-sign button, 

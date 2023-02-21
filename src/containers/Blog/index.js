@@ -33,7 +33,7 @@ const Blog = () => {
       </div>
       <div className="gpt1__blog-container">
         <div className="gpt1__blog-container_groupA">
-          <Article  imgUrl={blog01} date='Sep 26 2021' title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
+          <Article imgUrl={blog01} date='Sep 26 2021' title='GPT-3 and Open  AI is the future. Let us exlore how it is?'/>
         </div>
         <div className="gpt1__blog-container_groupB"> 
           {blogDatas.map((item, index) => (

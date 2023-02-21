@@ -1,6 +1,12 @@
 hero : section super mise en avant avec un peu de travail graphique
 
+display: grid => sous forme de grille
+grid-template-columns: repeat(2, 1fr) => repète 2 colonnes et même dimension
+grid-gap: 2rem; espace entre les grilles
+
 margin: 1rem 0; /* espace en haut et bad et middle */
+
+flex direction :column-reverse: same as row-reverse but bottom to top
 
 flex-grow: 1; // chaque item ont la même largeur 
 
